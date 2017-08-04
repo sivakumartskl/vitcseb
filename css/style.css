@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: #333 !important;
+}
+
+li {
+    float: right !important;
+}
+
+li a {
+    display: block !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111 !important;
+}
+.all-posts-container {
+    width: 608px;
+    padding : 50px;
+    border : 2px solid #000000;
+    margin: auto;
+}
+#sampleTest {
+    width: 608px;
+    padding : 50px;
+    border : 2px solid #000000;
+    margin: auto;
+}
+.shared-head-style {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.post-container {
+    border: 1px solid #000000;
+    padding : 10px;
+    width: 400px;
+    margin:auto;
+}
+.vit-shared-by {
+    border: 1px solid #000000;
+    padding: 5px;
+    height: 80px;
+}
+.vit-post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 228px;
+    border: 1px solid #000000;
+}
+.vit-post-actions {
+    border: 1px solid #000000;
+    height: 50px;
+    padding: 5px;
+}
+.action-align {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+iframe {
+    width: 368px;
+    height: 216px;
+}
+.anc-dec-showed:hover {
+    text-decoration: none;
+    background-color:green;
+    color: white;
+    padding:4px;
+    border-radius: 2px;
+}
+.hide-comment-box {
+    display: none;
+}
+.putCommentBox {
+    margin-top: 10px;
+}
+.comsuccmsgtoshow {
+    display:none;
+    margin-top: 10px;
+}
+.comboxDec {
+    width: 378px;
+    height: 40px;
+    padding: 5px;
+}
+.comm-dec {
+    border : 1px solid #000000;
+    padding : 10px;
+    margin : 10px 10px;
+    word-wrap: break-word;
+}
+#allCommsBodyDiv {
+    overflow-y: scroll;
+    height : 500px;
+}
